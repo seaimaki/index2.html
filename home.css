@@ -1,0 +1,61 @@
+.name { text-align: center;
+  @import url('https://fonts.googleapis.com/css?family=Karla');
+  font-family: 'karla', sans-serif;
+}
+
+.info p { font-size: 1.0em;
+  text-align: center;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.project {
+  position: relative;
+
+}
+
+.project:hover img {
+  filter: grayscale(0%);
+}
+
+.project:hover h1 {
+  opacity: 1.0;
+  transform: none;
+}
+
+.project h1  {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 110px;
+  color: Teal;
+  opacity: 0;
+  transition: all .3s ease-in-out;
+  transform: translateY(10px);
+}
+
+.light-text-short h3{ color: #fdfdfd !important;
+}
+
+.light-text h5 {
+  color: black !important;
+}
+
+.project img {
+  width: 300px;
+  height: 300px;
+  padding: 0;
+  transition: all .5s ease-in-out;
+  filter: grayscale(100%);
+  padding: 8px;
+
+}
+
+
+body {
+  background-color: white;
+}

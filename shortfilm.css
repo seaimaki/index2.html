@@ -1,0 +1,12 @@
+.film {
+  text-align: center;
+  background-position: center;
+  font-size: 1.5em;
+  color: black !important;
+}
+
+.project img {
+ margin: 16px;
+ height: 400px;
+ border: solid black 2px;
+}

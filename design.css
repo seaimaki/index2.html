@@ -1,0 +1,16 @@
+div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+img {
+  height: 300px;
+  margin: 16px;
+  border: 2px solid black;
+}
+
+.projects{
+  transition: all .3s ease-in-out;
+}
